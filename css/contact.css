@@ -1,0 +1,61 @@
+/* Styles for contact.html */
+
+/* Form styles */
+form {
+    width: 80%; /* Set width of form */
+    margin: 0 auto; /* Center the form */
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #008CBA;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #45a049;
+}
